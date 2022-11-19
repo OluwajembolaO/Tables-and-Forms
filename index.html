@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body{
+      background-image:url("https://cdn.create.vista.com/api/media/medium/198499840/stock-photo-creative-black-background-purple-smoke?token=");
+      background-repeat:no-repeat;
+      background-size:cover;
+    }
+      background-color:#130233;
+    }
+  </style>
 </head>
 
 <body>
@@ -24,46 +33,102 @@
         <tr>
       <td>Chicken and Broccoli</td>
           <td>Coding</td>
-          <td>N/A</td><!--Place Holder-->
       </tr>
       <tr>
         <td>Cereal</td>
         <td>Playing Games</td>
-        <td>N/A</td>
       </tr>
        <tr>
-        <td colspan="3">
-          Break 
-        </td>
+        <th colspan="4">
+          Grades 
+        </th>
       </tr>
       <tr>
-        <td rowspan="2">
-          food across 2 rows
-        </td>
-        <td>Col2</td>
-        <td>Col3</td>
+        <td rowspan="3"> Math</td>
+        <td>Fall</td> <td>100.48%</td>
       </tr>
       <tr>
-        <td>Col2</td>
-        <td>Col3</td>
-      </tr>
+        <td>Winter</td>
+        </tr>
+    <td>Spring</td>
       <tr>
-        <td>Row 6</td>
-        <td></td>
-        <td></td>
+        <tr><td rowspan="3">ELA</td>
+        <td>Fall</td> <td>92.92%</td>
       </tr>
+      <tr><td>Winter</td> </tr>
+     <td>Spring</td>
+      
+      <tr><td rowspan = "3"> Global</td>
+      <td>Fall</td> <td>93.3%</td></tr>
+      <tr><td>Winter</td></tr>
+      <td>Spring</td>
+      
+      <tr><td rowspan = "3"> Music</td>
+      <td>Fall</td> <td>102.73%</td></tr>
+      <tr><td>Winter</td></tr>
+      <td>Spring</td>
+      
+      <tr><td rowspan = "3"> LE</td>
+      <td>Fall</td> <td>93.33%</td></tr>
+      <tr><td>Winder</td></tr>
+      <td>Spring</td>
+      
+   
+      
     </table>
   </section>
-  <section>
+  <section style="text-align:center">
     <h2>Forms</h2>
-    <form>
-      <label for="name">Name:</lable>
-      <input type="text" id= "name">
+    <form action="https://formspree.io/f/mvoyyzwj" method="POST">
+      <feildset>
+        <legend>Field Set</legend>
+      <label class="Formed" for="name">Name:</lable>
+      <input class="Bar" type="text" required id= "name" placeholder="Your name is...">
         <br>
-        <label for="name">Height:</lable>
-      <input type="text" id= "Height">
-        
-    </form>
+        <label class="Formed" for="name">Height:</lable>
+      <input class="Bar" type="text" id= "Height" placeholder="Your height is...">
+          <br>
+          <label for="password">Password</label>
+          <input class="Bar" type="password" required id="password">
+     <br>
+          <lable for="date">Today's Date</lable>
+          <input class="Bar" type="month" id="today" name="today">
+          <br>
+          <p>What is Your Favorite Meal?</p>
+          <label for="breakfast">Breakfast</label>
+          <input class="Circle" type="radio" id = "breakfast" name = "meal"
+            value = "1">
+          <br>
+           <label for="Lunch">Lunch</label>
+          <input class="Circle" type="radio" id = "lunch" name = "meal"
+            value = "2">
+          <br>
+           <label for="Dinner">Dinner</label>
+          <input class="Circle" type="radio" id = "dinner" name = "meal"
+            value = "3">
+          <br>
+          <label for ="happy"> Excite-O-Meter:</label>
+          <input type="range" min="1" max="100" id="happy" name="Excite-O-Meter" value ="0"/>
+            <br>
+          <label for="email"> Add your email:</label>
+          <input type="email" required id="email" name="email"></type> 
+          <br>
+          <label for="Super Powers"> Pick A Superpower!</label>
+          <select name="Super Powers" id="SuperPowers">
+          <option value="Teleport"> Teleport</option>
+           <option value="Fly"> Fly</option>
+           <option value="Telekinesis"> Telekinesis</option>
+           <option value="Immortality"> Immortality</option>
+          </select>
+        </feildset>
+          <br>
+          <label style="color:#5a28b8">
+          Your message:
+    <textarea id="message" name="message"></textarea>
+  </label>
+          <br>
+          <input type="submit" value="Submit"/>
+        </form>
   </section>
 </body>
 

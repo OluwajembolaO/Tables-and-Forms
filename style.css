@@ -1,7 +1,10 @@
-table, th, td{
-  border:2px #40E0D0 solid;
+th, td{
+  border:2px #c203fc solid;
  /*border-collapse:collapse;*/
   
+}
+th, td{
+  color:#FFFFFF
 }
 body{ 
 text-align:center
@@ -10,5 +13,46 @@ table{
   margin:auto;
 }
 table.myTable{
-  empty-cells:hide;
+  empty-cells:show;
+}
+h1,h2, p{
+  color:#5a28b8;
+}
+.Formed{
+  color:#5a28b8;
+}
+.Bar{
+ background-color:#130233;
+  border-color:#c203fc;
+  border-width:2px;
+}
+body{
+   border-style: dotted;
+   border-color: #7b34c7;
+   border-width:10px;
+   margin:0px;
+}
+input{
+  border-style:solid;
+  border-color:#c203fc;
+  border-width:2x;
+  background-color:#130233;
+  color:#FFFFFF
+}
+
+textarea{
+  background-color:#130233
+}
+#message{
+  color:white;
+  border-style:solid;
+border-color:#c203fc;
+border-width:2x;
+}
+#SuperPowers{
+background-color:#130233;
+border-style:solid;
+border-color:#c203fc;
+border-width:2x;
+  color:#FFFFFF;
 }
