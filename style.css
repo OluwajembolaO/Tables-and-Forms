@@ -1,0 +1,14 @@
+table, th, td{
+  border:2px #40E0D0 solid;
+ /*border-collapse:collapse;*/
+  
+}
+body{ 
+text-align:center
+}
+table{
+  margin:auto;
+}
+table.myTable{
+  empty-cells:hide;
+}
